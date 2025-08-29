@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 60px 24px 60px;
+  background: #fff;
+}
+.title-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.title-name {
+  color: rgba(0, 103, 71, 1);
+  width: 135.72px;
+  height: 44.69px;
+  font-weight: 900;
+  font-family: "Inter", sans-serif;
+}
+.title-right {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+.interaction-item {
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  font-family: Inter;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  width: 123px;
+  height: 52px;
+  padding: 12px;
+  border-radius: 50px;
+  background: rgba(65, 255, 107, 0.1);
+}
+.interaction-item .icon {
+  width: 30px;
+  height: 30px;
+  margin: 12px 12px 12px 10px;
+}
+.copy-button {
+  border-radius: 50px;
+  background: rgba(0, 166, 62, 1);
+  color: white;
+  padding: 12px 36px 12px 36px;
+  font-size: 0.9em;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.hero {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center;
+
+  height: 239px;
+  background: linear-gradient(
+    90deg,
+    rgba(1.251827359199524, 49.64006805419922, 34.606834411621094, 1),
+    rgba(0, 103, 71, 1) 50%,
+    rgba(1, 50, 35, 1) 100%
+  );
+  padding: 12px 60px 12px 60px;
+  font-family: Hind Madurai;
+  color: #fff;
+  row-gap: 10px;
+}
+
+.hero-logo {
+  width: 92px;
+  height: 92px;
+}
